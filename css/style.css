@@ -1,0 +1,33 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#points {
+    display: block;
+    width: 540px;
+    position: absolute;
+    top: 330px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 32px;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+#restartButton {
+    display: none;
+    position: absolute;
+    width: 82px;
+    height: 28px;
+    border: none;
+    top: 270px;
+    z-index: 100;
+    background-image: url('img/restartBtn.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
